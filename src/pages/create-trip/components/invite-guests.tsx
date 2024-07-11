@@ -1,6 +1,9 @@
 // -> Icons lib
 import { ArrowRight, UserRoundPlus } from "lucide-react";
 
+// -> Components
+import { Button } from "../../../components/button";
+
 // -> Types
 interface IInviteGuestsProps {
   emailsToInvite: string[];
@@ -31,15 +34,11 @@ export function InviteGuests({
           </span>
         )}
       </button>
-
-      <button
-        type="button"
-        onClick={openConfirmTripModal}
-        className="flex items-center gap-2 bg-lime-300 text-lime-950 px-5 py-2 rounded-lg hover:bg-lime-400 transition-colors"
-      >
+      
+      <Button type="button" onClick={openConfirmTripModal}>
         Confirmar viagem
         <ArrowRight className="size-5" />
-      </button>
+      </Button>
     </div>
   )
 }

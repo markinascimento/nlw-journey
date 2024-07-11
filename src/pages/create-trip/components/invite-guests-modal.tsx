@@ -1,6 +1,11 @@
+// -> ReactJS
+import type { FormEvent } from "react";
+
 // -> Icons lib
 import { AtSign, Plus, X } from "lucide-react";
-import type { FormEvent } from "react";
+
+// -> Components
+import { Button } from "../../../components/button";
 
 // -> Types
 interface IInviteGuestsModalProps {
@@ -70,14 +75,11 @@ export function InviteGuestsModal({
             placeholder="Digite o e-mail do convidado"
             className="flex flex-1 bg-transparent placeholder:text-zinc-400 font-medium outline-none"
           />
-
-          <button
-            type="submit"
-            className="flex items-center gap-2 bg-lime-300 text-lime-950 px-5 py-2 rounded-lg hover:bg-lime-400 transition-colors"
-          >
+          
+          <Button type="submit">
             Convidar
             <Plus className="size-4 text-lime-950" />
-          </button>
+          </Button>
         </form>
       </main>
     </div>
