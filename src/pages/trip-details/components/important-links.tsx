@@ -12,9 +12,14 @@ export function ImportantLinks() {
       <div className="space-y-5">
         <div className="flex items-center justify-between gap-8">
           <div>
-            <span className="block font-medium text-zinc-100"> Reserva do AirBnb </span>
-            <a href="/" className="block text-sm text-zinc-400 truncate hover:text-zinc-200 transition-colors"> 
-              https://dlkwjqldkwqjdlwkqjdlkwqjdlwkqdjwlqkdjqwlkdjwql 
+            <span className="block font-medium text-zinc-100">
+              Reserva do AirBnb
+            </span>
+            <a
+              href="/"
+              className="block text-sm text-zinc-400 truncate hover:text-zinc-200 transition-colors"
+            >
+              https://dlkwjqldkwqjdlwkqjdlkwqjdlwkqdjwlqkdjqwlkdjwql
             </a>
           </div>
           <Link2 className="text-zinc-400 size-5 shrink-0" />
@@ -22,9 +27,14 @@ export function ImportantLinks() {
 
         <div className="flex items-center justify-between gap-8">
           <div>
-            <span className="block font-medium text-zinc-100"> Reserva do AirBnb </span>
-            <a href="/" className="block text-sm text-zinc-400 truncate hover:text-zinc-200 transition-colors"> 
-              https://dlkwjqldkwqjdlwkqjdlkwqjdlwkqdjwlqkdjqwlkdjwql 
+            <span className="block font-medium text-zinc-100">
+              Reserva do AirBnb
+            </span>
+            <a
+              href="/"
+              className="block text-sm text-zinc-400 truncate hover:text-zinc-200 transition-colors"
+            >
+              https://dlkwjqldkwqjdlwkqjdlkwqjdlwkqdjwlqkdjqwlkdjwql
             </a>
           </div>
           <Link2 className="text-zinc-400 size-5 shrink-0" />
@@ -36,5 +46,5 @@ export function ImportantLinks() {
         Cadastrar novo link
       </Button>
     </div>
-  )
+  );
 }

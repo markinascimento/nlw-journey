@@ -1,8 +1,8 @@
 // -> Icons lib
-import { CircleDashed, UserCog } from 'lucide-react'
+import { CircleDashed, UserCog } from "lucide-react";
 
 // -> Components
-import { Button } from '../../../components/button'
+import { Button } from "../../../components/button";
 
 export function Guests() {
   return (
@@ -12,7 +12,7 @@ export function Guests() {
         <div className="flex items-center justify-between gap-8">
           <div>
             <span className="block font-medium text-zinc-100"> Jessica </span>
-            <span className="block text-xs text-zinc-400 truncate"> 
+            <span className="block text-xs text-zinc-400 truncate">
               jessica@gmail.com
             </span>
           </div>
@@ -20,19 +20,19 @@ export function Guests() {
         </div>
         <div className="flex items-center justify-between gap-8">
           <div>
-          <span className="block font-medium text-zinc-100"> Jessica </span>
-            <span className="block text-xs text-zinc-400 truncate"> 
+            <span className="block font-medium text-zinc-100"> Jessica </span>
+            <span className="block text-xs text-zinc-400 truncate">
               jessica@gmail.com
             </span>
           </div>
           <CircleDashed className="text-zinc-400 size-5 shrink-0" />
         </div>
       </div>
-      
-      <Button type='button' variant='secondary' size='full'>
+
+      <Button type="button" variant="secondary" size="full">
         <UserCog className="size-5" />
         Gerenciar convidados
       </Button>
     </div>
-  )
+  );
 }
